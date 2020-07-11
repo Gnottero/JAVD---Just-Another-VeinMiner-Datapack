@@ -1,0 +1,23 @@
+{
+    "condition": "minecraft:inverted",
+    "term": {
+        "condition": "minecraft:alternative",
+        "terms": [
+            {
+                "condition": "minecraft:inverted",
+                "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "tag": "gnottero:veinminer/picks"
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}

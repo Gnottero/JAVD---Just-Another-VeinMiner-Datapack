@@ -1,0 +1,131 @@
+{
+    "condition": "minecraft:inverted",
+    "term": {
+        "condition": "minecraft:alternative",
+        "terms": [
+            {
+                "condition": "minecraft:inverted",
+                "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "tag": "gnottero:veinminer/picks"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "minecraft:inverted",
+                "term": {
+                    "condition": "minecraft:alternative",
+                    "terms": [
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "gn.mined_coal": {
+                                    "min": 1,
+                                    "max": 2
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "gn.mined_iron": {
+                                    "min": 1,
+                                    "max": 2
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "gn.mined_gold": {
+                                    "min": 1,
+                                    "max": 2
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "gn.mined_ngold": {
+                                    "min": 1,
+                                    "max": 2
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "gn.mined_lapis": {
+                                    "min": 1,
+                                    "max": 2
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "gn.mined_red": {
+                                    "min": 1,
+                                    "max": 2
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "gn.mined_emerald": {
+                                    "min": 1,
+                                    "max": 2
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "gn.mined_diamond": {
+                                    "min": 1,
+                                    "max": 2
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "gn.mined_quartz": {
+                                    "min": 1,
+                                    "max": 2
+                                }
+                            }
+                        },
+                        {
+                            "condition": "minecraft:entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "gn.mined_debris": {
+                                    "min": 1,
+                                    "max": 2
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

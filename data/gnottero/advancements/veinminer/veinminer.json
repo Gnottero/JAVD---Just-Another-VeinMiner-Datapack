@@ -1,0 +1,17 @@
+{
+     "criteria": {
+          "trigger": {
+               "trigger": "minecraft:tick"
+          }
+     },
+     "display": {
+          "announce_to_chat": false,
+          "description": "A VeinMiner Datapack by Gnottero",
+          "icon": {
+               "item": "minecraft:netherite_pickaxe"
+          },
+          "show_toast": false,
+          "title": "JAVD - Just Another Veinminer Datapack"
+     },
+     "parent": "global:gnottero"
+}
