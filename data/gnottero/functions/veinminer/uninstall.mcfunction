@@ -15,4 +15,4 @@
         scoreboard objectives remove gn.pick_dur 
 
     #> Disable the datapack
-        datapack disable "file/JAVD - Just Another VeinMiner Datapack"
+        datapack disable "file/javd-just-another-veinminer-datapack.zip"
